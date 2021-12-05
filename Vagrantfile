@@ -14,19 +14,14 @@ Vagrant.configure("2") do |config|
 
     # config.vm.provision "shell", path: "scripts/gcc.sh"
     # config.vm.provision "shell", path: "scripts/llvm.sh"
-
     # config.vm.provision "shell", path: "scripts/golang.sh"
     # config.vm.provision "shell", path: "scripts/rust.sh"
-
     # config.vm.provision "shell", path: "scripts/python.sh"
     # config.vm.provision "shell", path: "scripts/ruby.sh"
     # config.vm.provision "shell", path: "scripts/php.sh"
-
     # config.vm.provision "shell", path: "scripts/nodejs.sh"
-
     # config.vm.provision "shell", path: "scripts/dotnet.sh"
     # config.vm.provision "shell", path: "scripts/java.sh"
-
     # config.vm.provision "shell", path: "scripts/haskell.sh"
 
     # config.vm.provision "shell", path: "scripts/git.sh"
@@ -42,9 +37,9 @@ Vagrant.configure("2") do |config|
 
     # config.vm.provision "shell", path: "scripts/docker.sh"
     # config.vm.provision "shell", path: "scripts/docker-compose.sh"
+    # config.vm.provision "shell", path: "scripts/virtualbox.sh"
 
     # config.vm.provision "shell", path: "scripts/sysdig.sh"
-    # config.vm.provision "shell", path: "scripts/virtualbox.sh"
     # config.vm.provision "shell", path: "scripts/wireshark.sh"
 
     # config.vm.provision "shell", path: "scripts/aws-cli.sh"
@@ -54,12 +49,13 @@ Vagrant.configure("2") do |config|
     # config.vm.provision "shell", path: "scripts/visual-studio-code.sh"
     # config.vm.provision "shell", path: "scripts/jetbrains-toolbox.sh"
 
-    # config.vm.provision "shell", path: "scripts/google-chrome.sh"
+    # config.vm.provision "shell", path: "scripts/chrome.sh"
     # config.vm.provision "shell", path: "scripts/brave.sh"
     # config.vm.provision "shell", path: "scripts/opera.sh"
     # config.vm.provision "shell", path: "scripts/edge.sh"
 
-    # config.vm.provision "shell", path: "scripts/megasync.sh"
     # config.vm.provision "shell", path: "scripts/windscribe.sh"
+
+    # config.vm.provision "shell", path: "scripts/megasync.sh"
 
 end

@@ -1,6 +1,6 @@
 # Maven
 
-_VERSION=3.8.1
+_VERSION=3.8.4
 
 _URL=https://downloads.apache.org/maven/maven-3/$_VERSION/binaries/apache-maven-$_VERSION-bin.tar.gz
 curl -L $_URL -o apache-maven.tar.gz

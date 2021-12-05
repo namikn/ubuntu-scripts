@@ -1,6 +1,6 @@
 # PHP
 
-_VERSION=8.0
+_VERSION=8.1
 
 sudo add-apt-repository -y ppa:ondrej/php
 sudo apt-get update

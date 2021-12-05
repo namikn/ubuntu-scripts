@@ -6,4 +6,4 @@ Tested on Ubuntu LTS versions:
 - 20.04 (Focal)
 
 Missing repositories and packages:
-- 14/04/21, 20.04 (Focal), Windscribe (VPN)
+- 12/05/21, 20.04 (Focal), Windscribe (VPN)
