@@ -1,10 +1,10 @@
 # Windscribe (VPN)
+# https://windscribe.com/guides/linux
 
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key FDC247B7
-# echo "deb https://repo.windscribe.com/ubuntu $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/windscribe.list
-echo "deb https://repo.windscribe.com/ubuntu bionic main" | sudo tee /etc/apt/sources.list.d/windscribe.list
-sudo apt-get update
-sudo apt-get install -y windscribe-cli
+_URL=https://windscribe.com/install/desktop/linux_deb_x64
 
-# windscribe login
-# windscribe connect
+echo $_URL
+curl -sSL $_URL -o windscribe.deb
+# Installs in /opt
+sudo dpkg -i windscribe.deb
+rm -f windscribe.deb

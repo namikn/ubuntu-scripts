@@ -1,3 +1,4 @@
-# LLVM, https://apt.llvm.org
+# LLVM
+# https://apt.llvm.org
 
-curl -L https://apt.llvm.org/llvm.sh | sudo bash
+curl -sSL https://apt.llvm.org/llvm.sh | sudo bash

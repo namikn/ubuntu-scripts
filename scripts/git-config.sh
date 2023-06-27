@@ -1,7 +1,7 @@
 # Git, config
 
-git config --global user.name 'NAME'
-git config --global user.email 'EMAIL'
+#git config --global user.name 'NAME'
+#git config --global user.email 'EMAIL'
 
 git config --global help.autocorrect 1
 git config --global push.default current
