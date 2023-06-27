@@ -1,3 +1,10 @@
+## Auth. Key Paths
+
+    # For system/package/user-managed auth. keys
+    /usr/share/keyrings     # NO!
+    /etc/apt/trusted.gpg.d  # NO!
+    /etc/apt/keyrings       # Yes
+
 ## Binary Paths
 
     # For package-managed system-wide commands
