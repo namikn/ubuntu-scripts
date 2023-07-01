@@ -12,4 +12,7 @@ curl -sSL $_URL -o jetbrains-toolbox.tar.gz
 sudo tar -xf jetbrains-toolbox.tar.gz -C /usr/local/bin --strip-components=1
 rm -f jetbrains-toolbox.tar.gz
 
+# https://github.com/AppImage/AppImageKit/wiki/FUSE
+sudo apt-get install -y libfuse2
+
 # jetbrains-toolbox &> /dev/null
