@@ -8,3 +8,5 @@ echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/microsoft-archive-keyring.gpg]
 
 sudo apt-get update
 sudo apt-get install -y azure-cli
+
+# Logout required for autocomplete

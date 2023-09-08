@@ -1,15 +1,16 @@
 # Rust, $HOME directory installation, default
 # https://www.rust-lang.org/tools/install
-# Copy/paste to shell or run as ./rust.sh
+
+# Copy/paste to shell or run as ./rust.sh !
 
 # No prompt, accept defaults
 curl -sSL https://sh.rustup.rs | sh -s -- -y
 
 # Configure the current shell
-source ~/.cargo/env
+source $HOME/.cargo/env
 
 # For user-managed user-specific commands/binaries
-_DIR=~/.local/share/bash-completion/completions
+_DIR=$HOME/.local/share/bash-completion/completions
 mkdir -p $_DIR
 
 rustup completions bash > $_DIR/rustup

@@ -8,3 +8,5 @@ echo "deb [signed-by=/etc/apt/keyrings/google-cloud-archive-keyring.gpg] https:/
 
 sudo apt-get update
 sudo apt-get install -y google-cloud-sdk
+
+# Logout required for autocomplete

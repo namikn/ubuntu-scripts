@@ -1,7 +1,7 @@
 # Maven
 # https://maven.apache.org/install.html
 
-_VERSION=3.9.3
+_VERSION=3.9.4
 
 _URL=https://downloads.apache.org/maven/maven-3/$_VERSION/binaries/apache-maven-$_VERSION-bin.tar.gz
 

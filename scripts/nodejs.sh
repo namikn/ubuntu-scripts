@@ -17,3 +17,8 @@ sudo npm install -g npm
 # sudo npm install -g yarn
 # sudo npm install -g http-server
 # sudo npm install -g serverless
+
+# For user-managed system-wide commands
+_DIR=/usr/local/share/bash-completion/completions
+sudo mkdir -p $_DIR
+node --completion-bash | sudo tee $_DIR/node

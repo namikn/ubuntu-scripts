@@ -4,6 +4,7 @@
 # Installs in /usr/local/bin/stack
 curl -sSL https://get.haskellstack.org/ | sudo sh
 
+# For user-managed system-wide commands
 _DIR=/usr/local/share/bash-completion/completions
 sudo mkdir -p $_DIR
 stack --bash-completion-script $(which stack) | sudo tee $_DIR/stack

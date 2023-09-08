@@ -1,6 +1,9 @@
 # Git, config
 
+#git config --global --unset user.name
 #git config --global user.name 'NAME'
+
+#git config --global --unset user.email
 #git config --global user.email 'EMAIL'
 
 git config --global help.autocorrect 1

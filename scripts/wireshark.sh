@@ -11,6 +11,5 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get install -y wireshark
 sudo DEBIAN_FRONTEND=noninteractive apt-get install -y tshark
 sudo usermod -aG wireshark $USER # Logout required
 
-
 # Yes/No to "Should non-superusers be able to capture packets?"
 # sudo dpkg-reconfigure wireshark-common

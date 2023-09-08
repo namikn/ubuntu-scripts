@@ -15,6 +15,5 @@ sudo apt-get install -y opera-stable
 # The package installs its key at trusted.gpg.d/opera*.gpg 
 sudo rm -f /etc/apt/trusted.gpg.d/opera*.gpg
 
-
 # Yes/No to "Do you want to update Opera together with the rest of the system?"
 # sudo dpkg-reconfigure opera-stable

@@ -11,3 +11,8 @@ sudo apt-get update
 sudo apt-get install -y sysdig
 
 # sudo apt-get install -y linux-headers-$(uname -r)
+
+# For package-managed system-wide commands
+_URL=https://raw.githubusercontent.com/draios/sysdig/dev/scripts/completions/bash/sysdig
+_DIR=/usr/share/bash-completion/completions
+sudo curl -sSL $_URL -o $_DIR/sysdig
